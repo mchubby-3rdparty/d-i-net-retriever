@@ -32,7 +32,7 @@ msgstr ""
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr ""
+msgstr "ස්ථාපක සංරචක බාගත කරන්න"
 
 #. Type: select
 #. Choices
@@ -41,7 +41,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr ""
+msgstr "නැවත උත්සාහ කරන්න"
 
 #. Type: select
 #. Choices
@@ -50,7 +50,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr ""
+msgstr "පිළිබිඹුව වෙනස් කරන්න"
 
 #. Type: select
 #. Choices
@@ -59,14 +59,14 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr ""
+msgstr "අහෝසි කරන්න"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "ගොනුව බා ගැනීම අසාර්ථකයි:"
 
 #. Type: select
 #. Description
@@ -78,3 +78,6 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
+"ස්ථාපකයට පිළිබිඹුවෙන් ගොනුවක් බාගැනීමට නොහැකි විය, මෙය ඔබේ ජාලය  හෝ පිළිබිඹුව සම්බන්ධ ගැටළුවක් "
+"විය හැක, ඔබට බා ගැනීම නැවත උත්සාහ කිරීම, වෙනත් පිළිබිඹුවක් තෝරාගැනීම හෝ අවලංගු කර වෙනත් "
+"ස්ථාපන ක්‍රමයක් තෝරාගැනීම සිදුකල හැක."
