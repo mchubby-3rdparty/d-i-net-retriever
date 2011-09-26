@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2011-09-18 21:28+0100\n"
+"PO-Revision-Date: 2011-09-26 10:46+0100\n"
 "Last-Translator: Marcin Owsiany <porridge@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -44,7 +44,7 @@ msgstr ""
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr ""
+msgstr "Pobierz składniki instalatora"
 
 #. Type: select
 #. Choices
@@ -53,7 +53,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr ""
+msgstr "Ponów"
 
 #. Type: select
 #. Choices
@@ -62,7 +62,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr ""
+msgstr "Zmień serwer lustrzany"
 
 #. Type: select
 #. Choices
@@ -71,14 +71,14 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "Pobieranie pliku nie powiodło się:"
 
 #. Type: select
 #. Description
@@ -90,3 +90,7 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
+"Instalatorowi nie udało się pobrać pliku z serwera. Może to oznaczać "
+"problemy z siecią lub tym serwerem. Możesz wybrać ponowienie pobierania, "
+"skorzystanie z innego serwera lustrzanego lub anulowanie i wybranie innej "
+"metody instalacji."
