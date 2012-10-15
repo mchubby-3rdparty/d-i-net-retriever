@@ -9,7 +9,7 @@ Vcs-Browser: http://git.debian.org/?p=d-i/net-retriever.git
 Vcs-Git: git://git.debian.org/d-i/net-retriever.git
 
 Package: net-retriever
-XC-Package-Type: udeb
+Package-Type: udeb
 Architecture: all
 Depends: ${misc:Depends}, choose-mirror, configured-network, di-utils (>= 1.58), gpgv-udeb, debian-archive-keyring-udeb
 Provides: retriever
@@ -17,7 +17,7 @@ Description: Fetch modules from the Internet
  This is a retriever that uses wget to fetch files over http or ftp.
 
 Package: download-installer
-XC-Package-Type: udeb
+Package-Type: udeb
 Architecture: all
 Priority: extra
 Depends: ${misc:Depends}, net-retriever, anna (>= 1.07)
