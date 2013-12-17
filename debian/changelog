@@ -1,3 +1,10 @@
+net-retriever (1.37) unstable; urgency=low
+
+  [ Updated translations ]
+  * Bosnian (bs.po) by Amila Valjevčić
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 17 Dec 2013 11:55:45 +0100
+
 net-retriever (1.36) unstable; urgency=low
 
   [ Updated translations ]
