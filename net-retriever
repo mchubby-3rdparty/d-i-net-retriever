@@ -24,26 +24,27 @@ fetch() {
 }
 
 checkmatch() {
-	release="$1"
-	packages="$2"
-	pkgmd5="$3"
-	pkgsize="$4"
+	Release="$1"
+	Packages="$2"
+	pkgfile="$3"
+	pkgmd5="$(md5sum "$Packages" | cut -d' ' -f1)"
+	pkgsize="$(wc -c < "$Packages" | tr -d ' ')"
 
 	set -e
 	sed -n '/^MD5Sum:$/ b LOOP; b; : PRINT; /:$/q; p; : LOOP; n; b PRINT' \
-	       "$release" | (
+	       "$Release" | (
 		while read md5 size file; do
-			if [ "$file" = "$packages" ]; then
+			if [ "$file" = "$pkgfile" ]; then
 				if [ "$md5" != "$pkgmd5" ]; then
-					error "MD5 mismatch for $packages ($md5 != $pkgmd5)."
+					error "MD5 mismatch for $pkgfile ($md5 != $pkgmd5)."
 				fi
 				if [ "$size" != "$pkgsize" ]; then
-					error "Size mismatch for $packages ($size != $pkgsize)."
+					error "Size mismatch for $pkgfile ($size != $pkgsize)."
 				fi
 				return 0
 			fi
 		done
-		error "$packages not found in $release."
+		error "$pkgfile not found in $Release."
 	)
 	set +e
 }
@@ -119,9 +120,7 @@ case "$cmd" in
 			Packages="/tmp/net-retriever-$$-Packages"
 			rm -f "$Packages"
 			fetch "dists/$codename/$pkgfile" "$Packages" || continue
-			checkmatch "$Release" "$pkgfile" \
-				"$(md5sum "$Packages" | cut -d' ' -f1)" \
-				"$(wc -c < "$Packages" | tr -d ' ')"
+			checkmatch "$Release" "$Packages" "$pkgfile"
 			if [ "$ext" = '' ]; then
 				cat "$Packages" >> "$1"
 			elif [ "$ext" = .gz ]; then
