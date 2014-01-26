@@ -46,6 +46,10 @@ checkmatch() {
 
 	for checksumtype in MD5Sum; do
 		pkgchecksum=$(get_checksum "$checksumtype" "$Packages")
+		if [ -z "$pkgchecksum" ]; then
+			error "Please report a bug: get_checksum() returned nothing"
+		fi
+
 		set -e
 		sed -n "/^$checksumtype:\$/ b LOOP; b; : PRINT; /:\$/q; p; : LOOP; n; b PRINT" \
 		       "$Release" | (
