@@ -44,7 +44,10 @@ checkmatch() {
 	pkgfile="$3"
 	pkgsize="$(wc -c < "$Packages" | tr -d ' ')"
 
-	for checksumtype in MD5Sum; do
+	# Note: When checksum types are modified by the FTP team, make
+	# sure to update both the list below and the case statement in
+	# get_checksum().
+	for checksumtype in MD5Sum SHA1 SHA256; do
 		pkgchecksum=$(get_checksum "$checksumtype" "$Packages")
 		if [ -z "$pkgchecksum" ]; then
 			error "Please report a bug: get_checksum() returned nothing"

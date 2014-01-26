@@ -1,3 +1,11 @@
+net-retriever (1.38) UNRELEASED; urgency=low
+
+  * Modify checkmatch() to use a loop over a list of checksum types when
+    verifying Packages files against Release files, to support SHA1 and
+    SHA256 in addition to MD5Sum (Closes: #712640).
+
+ -- Cyril Brulebois <kibi@debian.org>  Mon, 27 Jan 2014 00:29:02 +0100
+
 net-retriever (1.37) unstable; urgency=low
 
   [ Updated translations ]
