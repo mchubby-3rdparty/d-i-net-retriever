@@ -23,6 +23,21 @@ fetch() {
 	fetch-url -c "${protocol}://${hostname}${directory}/$1" "$2"
 }
 
+# Note: callers are expected to check for non-empty strings in return,
+# which could indicate an unknown checksum type, or a missing foosum
+# binary.
+get_checksum() {
+	type="$1"
+	file="$2"
+
+	case "$type" in
+		MD5Sum) md5sum    "$file" | cut -d' ' -f1 ;;
+		SHA1)   sha1sum   "$file" | cut -d' ' -f1 ;;
+		SHA256) sha256sum "$file" | cut -d' ' -f1 ;;
+		*)      error "Unknown checksum type $type for $file"
+	esac
+}
+
 checkmatch() {
 	Release="$1"
 	Packages="$2"
