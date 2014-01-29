@@ -3,6 +3,8 @@ net-retriever (1.38) UNRELEASED; urgency=low
   * Modify checkmatch() to use a loop over a list of checksum types when
     verifying Packages files against Release files, to support SHA1 and
     SHA256 in addition to MD5Sum (Closes: #712640).
+  * Accept Packages.xz in addition to Packages.gz and Packages, thanks to
+    Ansgar Burchardt (Closes: #737037). Fetching is tried in that order.
 
  -- Cyril Brulebois <kibi@debian.org>  Mon, 27 Jan 2014 00:29:02 +0100
 
