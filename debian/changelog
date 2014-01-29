@@ -7,6 +7,7 @@ net-retriever (1.38) UNRELEASED; urgency=low
     be relaxed in a further upload.
   * Accept Packages.xz in addition to Packages.gz and Packages, thanks to
     Ansgar Burchardt (Closes: #737037). Fetching is tried in that order.
+  * Add myself to Uploaders.
 
  -- Cyril Brulebois <kibi@debian.org>  Mon, 27 Jan 2014 00:29:02 +0100
 
