@@ -9,6 +9,9 @@ net-retriever (1.38) UNRELEASED; urgency=low
     Ansgar Burchardt (Closes: #737037). Fetching is tried in that order.
   * Add myself to Uploaders.
 
+  [ Update translations ]
+  * Hungarian (hu.po) by Judit Gyimesi
+
  -- Cyril Brulebois <kibi@debian.org>  Mon, 27 Jan 2014 00:29:02 +0100
 
 net-retriever (1.37) unstable; urgency=low
