@@ -1,4 +1,4 @@
-net-retriever (1.38) UNRELEASED; urgency=low
+net-retriever (1.38) unstable; urgency=low
 
   * Modify checkmatch() to use a loop over a list of checksum types when
     verifying Packages files against Release files, to support SHA1 and
@@ -12,7 +12,7 @@ net-retriever (1.38) UNRELEASED; urgency=low
   [ Update translations ]
   * Hungarian (hu.po) by Judit Gyimesi
 
- -- Cyril Brulebois <kibi@debian.org>  Mon, 27 Jan 2014 00:29:02 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 29 Jan 2014 21:19:59 +0100
 
 net-retriever (1.37) unstable; urgency=low
 
