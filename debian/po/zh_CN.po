@@ -26,14 +26,14 @@
 #   YunQiang Su <wzssyqa@gmail.com>, 2011.
 #
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
-# YunQiang Su <wzssyqa@gmail.com>, 2010, 2011.
+# YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2011-08-11 11:13+0800\n"
+"PO-Revision-Date: 2014-03-05 14:59+0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -94,5 +94,5 @@ msgid ""
 "installation method."
 msgstr ""
 "安装程序无法从镜像网站下载文件。这可能是您的网络问题，也可能是镜像网站的错"
-"误。您可以选择重新下载，或者使用别的镜像网站，也可以选择取消并改用其它的安装"
+"误。您可以选择重新下载，或者使用别的镜像网站，也可以选择取消并改用其他的安装"
 "方式。"
