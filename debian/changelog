@@ -1,9 +1,9 @@
-net-retriever (1.39) UNRELEASED; urgency=medium
+net-retriever (1.39) unstable; urgency=medium
 
   [ Updated translations ]
   * Simplified Chinese (zh_CN.po) by YunQiang Su
 
- -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2014 17:17:35 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2014 17:19:20 +0100
 
 net-retriever (1.38) unstable; urgency=low
 
