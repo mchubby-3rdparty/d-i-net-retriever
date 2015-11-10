@@ -1,3 +1,9 @@
+net-retriever (1.41+kbsd8u1) UNRELEASED; urgency=medium
+
+  * Support udebs-source having multiple suites
+
+ -- Steven Chamberlain <steven@pyro.eu.org>  Tue, 06 Oct 2015 09:46:11 +0000
+
 net-retriever (1.41) unstable; urgency=medium
 
   [ Updated translations ]

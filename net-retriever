@@ -107,8 +107,8 @@ case "$cmd" in
 			db_get mirror/codename
 		fi
 	fi
-	codename="$RET"
 
+	for codename in $RET; do
 	Release="/tmp/net-retriever-$$-Release"
 	fetch "dists/$codename/Release" "$Release" || exit $?
 	# If gpgv and a keyring are installed, authentication is
@@ -158,6 +158,7 @@ case "$cmd" in
 			ret=0
 			break
 		done
+	done
 	done
 	exit $ret
 	;;
