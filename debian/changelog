@@ -1,4 +1,4 @@
-net-retriever (1.41+kbsd8u1) UNRELEASED; urgency=medium
+net-retriever (1.41+kbsd8u1) jessie-kfreebsd; urgency=medium
 
   * Support udebs-source having multiple suites
 
