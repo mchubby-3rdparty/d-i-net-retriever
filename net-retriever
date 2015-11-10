@@ -109,56 +109,56 @@ case "$cmd" in
 	fi
 
 	for codename in $RET; do
-	Release="/tmp/net-retriever-$$-Release"
-	fetch "dists/$codename/Release" "$Release" || exit $?
-	# If gpgv and a keyring are installed, authentication is
-	# mandatory by default.
-	if type gpgv >/dev/null && [ -f "$keyring" ]; then
-		if db_get debian-installer/allow_unauthenticated && [ "$RET" = true ]; then
-			log "Not verifying Release signature: unauthenticated mode enabled"
+		Release="/tmp/net-retriever-$$-Release"
+		fetch "dists/$codename/Release" "$Release" || exit $?
+		# If gpgv and a keyring are installed, authentication is
+		# mandatory by default.
+		if type gpgv >/dev/null && [ -f "$keyring" ]; then
+			if db_get debian-installer/allow_unauthenticated && [ "$RET" = true ]; then
+				log "Not verifying Release signature: unauthenticated mode enabled"
+			else
+				if ! fetch "dists/$codename/Release.gpg" "$Release.gpg"; then
+					error "dists/$codename/Release is unsigned."
+				fi
+				if ! log-output -t net-retriever --pass-stdout \
+				     gpgv --status-fd 1 --keyring "$keyring" \
+				     --ignore-time-conflict \
+				     "$Release.gpg" "$Release" | read_gpg_status; then
+					error "Bad signature on $Release."
+				fi
+			fi
 		else
-			if ! fetch "dists/$codename/Release.gpg" "$Release.gpg"; then
-				error "dists/$codename/Release is unsigned."
-			fi
-			if ! log-output -t net-retriever --pass-stdout \
-			     gpgv --status-fd 1 --keyring "$keyring" \
-			     --ignore-time-conflict \
-			     "$Release.gpg" "$Release" | read_gpg_status; then
-				error "Bad signature on $Release."
-			fi
+			log "Not verifying Release signature: gpgv not available"
 		fi
-	else
-		log "Not verifying Release signature: gpgv not available"
-	fi
 
-	ARCH=`udpkg --print-architecture`
-	components="`grep ^Components: $Release | cut -d' ' -f2-`"
-	ret=1
-	if [ -z "$components" ]; then
-		error "No components listed in $Release."
-	fi
-	for comp in $components; do
-		for ext in '.xz' '.gz' ''; do
-			pkgfile="$comp/debian-installer/binary-$ARCH/Packages$ext"
-			line=`grep $pkgfile\$ $Release 2>/dev/null`
-			if [ $? != 0 ]; then
-				continue
-			fi
-			Packages="/tmp/net-retriever-$$-Packages"
-			rm -f "$Packages"
-			fetch "dists/$codename/$pkgfile" "$Packages" || continue
-			checkmatch "$Release" "$Packages" "$pkgfile"
-			if [ "$ext" = '' ]; then
-				cat "$Packages" >> "$1"
-			elif [ "$ext" = .gz ]; then
-				zcat "$Packages" >> "$1"
-			elif [ "$ext" = .xz ]; then
-				xzcat "$Packages" >> "$1"
-			fi
-			ret=0
-			break
+		ARCH=`udpkg --print-architecture`
+		components="`grep ^Components: $Release | cut -d' ' -f2-`"
+		ret=1
+		if [ -z "$components" ]; then
+			error "No components listed in $Release."
+		fi
+		for comp in $components; do
+			for ext in '.xz' '.gz' ''; do
+				pkgfile="$comp/debian-installer/binary-$ARCH/Packages$ext"
+				line=`grep $pkgfile\$ $Release 2>/dev/null`
+				if [ $? != 0 ]; then
+					continue
+				fi
+				Packages="/tmp/net-retriever-$$-Packages"
+				rm -f "$Packages"
+				fetch "dists/$codename/$pkgfile" "$Packages" || continue
+				checkmatch "$Release" "$Packages" "$pkgfile"
+				if [ "$ext" = '' ]; then
+					cat "$Packages" >> "$1"
+				elif [ "$ext" = .gz ]; then
+					zcat "$Packages" >> "$1"
+				elif [ "$ext" = .xz ]; then
+					xzcat "$Packages" >> "$1"
+				fi
+				ret=0
+				break
+			done
 		done
-	done
 	done
 	exit $ret
 	;;
