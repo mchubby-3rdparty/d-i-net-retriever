@@ -1,8 +1,9 @@
-net-retriever (1.42) UNRELEASED; urgency=medium
+net-retriever (1.42) unstable; urgency=medium
 
+  [ Colin Watson ]
   * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:19 +0000
+ -- Christian Perrier <bubulle@debian.org>  Sun, 07 Feb 2016 18:58:11 +0100
 
 net-retriever (1.41) unstable; urgency=medium
 
