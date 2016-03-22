@@ -1,3 +1,18 @@
+net-retriever (1.43) UNRELEASED; urgency=medium
+
+  [ Roger Shimizu ]
+  * Remove checksums MD5 and SHA1, which is considered weak and unnecessary,
+    and only keep SHA256.
+    Thanks Joerg Jaspert, those weak checksum records are already removed
+    (or at least partly) from archive.
+    Announcement:
+    - https://lists.debian.org/debian-devel-announce/2016/03/msg00006.html
+    Discussion threads:
+    - https://lists.debian.org/debian-devel/2016/03/threads.html#00193
+    - https://lists.debian.org/debian-boot/2016/03/threads.html#00201
+
+ -- Roger Shimizu <rogershimizu@gmail.com>  Tue, 22 Mar 2016 22:16:30 +0900
+
 net-retriever (1.42) unstable; urgency=medium
 
   [ Colin Watson ]

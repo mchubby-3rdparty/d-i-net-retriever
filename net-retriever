@@ -31,8 +31,6 @@ get_checksum() {
 	file="$2"
 
 	case "$type" in
-		MD5Sum) md5sum    "$file" | cut -d' ' -f1 ;;
-		SHA1)   sha1sum   "$file" | cut -d' ' -f1 ;;
 		SHA256) sha256sum "$file" | cut -d' ' -f1 ;;
 		*)      error "Unknown checksum type $type for $file"
 	esac
@@ -47,7 +45,7 @@ checkmatch() {
 	# Note: When checksum types are modified by the FTP team, make
 	# sure to update both the list below and the case statement in
 	# get_checksum().
-	for checksumtype in MD5Sum SHA1 SHA256; do
+	for checksumtype in SHA256; do
 		pkgchecksum=$(get_checksum "$checksumtype" "$Packages")
 		if [ -z "$pkgchecksum" ]; then
 			error "Please report a bug: get_checksum() returned nothing"
