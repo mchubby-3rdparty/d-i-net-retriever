@@ -1,4 +1,4 @@
-net-retriever (1.43) UNRELEASED; urgency=medium
+net-retriever (1.43) unstable; urgency=medium
 
   [ Roger Shimizu ]
   * Remove checksums MD5 and SHA1, which is considered weak and unnecessary,
@@ -11,7 +11,7 @@ net-retriever (1.43) UNRELEASED; urgency=medium
     - https://lists.debian.org/debian-devel/2016/03/threads.html#00193
     - https://lists.debian.org/debian-boot/2016/03/threads.html#00201
 
- -- Roger Shimizu <rogershimizu@gmail.com>  Tue, 22 Mar 2016 22:16:30 +0900
+ -- Christian Perrier <bubulle@debian.org>  Thu, 24 Mar 2016 06:14:32 +0100
 
 net-retriever (1.42) unstable; urgency=medium
 
