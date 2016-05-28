@@ -3,29 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Japanese messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2010-09-02 10:33+0900\n"
-"Last-Translator:  Kenshi Muto <kmuto@debian.org>\n"
-"Language-Team: Debian L10n Japanese <debian-l10n-japanese@lists.debian.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr "インストーラコンポーネントのダウンロード"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -34,7 +17,7 @@ msgstr "インストーラコンポーネントのダウンロード"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr "再試行"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -43,7 +26,7 @@ msgstr "再試行"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr "ミラーの変更"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -52,14 +35,14 @@ msgstr "ミラーの変更"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr "キャンセル"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr "ファイルのダウンロード中に失敗しました:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -71,7 +54,3 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
-"インストーラはミラーからファイルをダウンロードするのに失敗しました。これはあ"
-"なたのネットワークまたはミラーに問題があるためでしょう。ダウンロードの再試"
-"行、別のミラーの選択、あるいはキャンセルして別のインストール方法の選択から選"
-"ぶことができます。"

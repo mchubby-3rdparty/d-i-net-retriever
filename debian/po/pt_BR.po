@@ -3,30 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of Debian Installer templates to Brazilian Portuguese.
-# This file is distributed under the same license as debian-installer.
-#
-# Felipe Augusto van de Wiel (faw) <faw@debian.org>, 2008-2010.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2010-07-05 02:03-0300\n"
-"Last-Translator: Felipe Augusto van de Wiel (faw) <faw@debian.org>\n"
-"Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
-"org>\n"
-"Language: pt_BR\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr "Baixar componentes do instalador"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -35,7 +17,7 @@ msgstr "Baixar componentes do instalador"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr "Tentar novamente"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -44,7 +26,7 @@ msgstr "Tentar novamente"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr "Mudar espelho de rede"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -53,14 +35,14 @@ msgstr "Mudar espelho de rede"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr "Ocorreu uma falha enquanto um arquivo era baixado:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -72,7 +54,3 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
-"O instalador falhou ao baixar um arquivo do espelho de rede. Pode ter "
-"ocorrido um problema em sua rede ou com o espelho. Você pode optar por "
-"tentar baixar novamente, selecionar um espelho diferente ou cancelar e "
-"escolher um outro método de instalação."

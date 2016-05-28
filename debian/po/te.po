@@ -3,32 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of te.po to Telugu
-# Telugu translation for debian-installer
-# This file is distributed under the same license as the debian-installer package.
-# వీవెన్ (Veeven) <launchpad.net>, 2007.
-# Y Giridhar Appaji Nag <giridhar@appaji.net>, 2008.
-# Arjuna Rao Chavala <arjunaraoc@gmail.com>,2010
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-msgid ""
-msgstr ""
-"Project-Id-Version: te\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2010-07-27 14:46+0530\n"
-"Last-Translator: Arjuna Rao Chavala <arjunaraoc@gmail.com>\n"
-"Language-Team: Telugu <debian-in-workers@lists.alioth.debian.org>\n"
-"Language: te\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr "స్థాపక వ్యవస్థ అంశాల డౌన్ లోడ్"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -37,7 +17,7 @@ msgstr "స్థాపక వ్యవస్థ అంశాల డౌన్ �
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr "మళ్ళీ ప్రయత్నించు"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -46,7 +26,7 @@ msgstr "మళ్ళీ ప్రయత్నించు"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr "మిర్రర్ ని మార్చు"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -55,14 +35,14 @@ msgstr "మిర్రర్ ని మార్చు"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr "రద్దు"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr "దస్త్రము దిగుమతి విఫలమయింది:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -74,6 +54,3 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
-"స్థాపన వ్యవస్థ  మిర్రర్ నుండి ఫైలు డౌన్లోడ్  చేయుటలో విఫలమైంది. మీ నెట్వర్క్ కాని మిర్రర్ తో సమస్య "
-"వుండవచ్చు. డౌన్లోడ్  మరల ప్రయత్నించవచ్చు, వేరొక మిర్రర్ ఎంచుకోవచ్చు, లేక రద్దు చేసి ఇంకొక స్థాపన "
-"పద్ధతి  ఎంచుకోండి."

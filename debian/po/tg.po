@@ -3,34 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files
-#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2013-09-12 16:35+0500\n"
-"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
-"Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
-"Language: Tajik\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=1;\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr "Боргирӣ кардани унсурҳои насбкунанда"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -39,7 +17,7 @@ msgstr "Боргирӣ кардани унсурҳои насбкунанда"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr "Такрор кардан"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -48,7 +26,7 @@ msgstr "Такрор кардан"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr "Тағйир додани оина"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -57,14 +35,14 @@ msgstr "Тағйир додани оина"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr "Бекор кардан"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr "Боргирии файл қатъ шудааст:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -76,7 +54,3 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
-"Насбкунанда боргирии файлро аз оина қатъ кардааст. Эҳтимол аст, ки мушкилии "
-"шабака ё оина ба вуҷуд омад. Шумо метавонед боргириро аз нав кӯшиш кунед, "
-"оинаи дигареро интихоб кунед ё раванди ҷориро бекор кунед ва тарзи насби "
-"дигареро интихоб намоед."
