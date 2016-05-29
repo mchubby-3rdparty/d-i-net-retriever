@@ -3,12 +3,34 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+#
+# Debian Installer master translation file template
+# Don't forget to properly fill-in the header of PO files
+#
+# Debian Installer translators, please read the D-I i18n documentation
+# in doc/i18n/i18n.txt
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
+"Language: Tajik\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr ""
+msgstr "Боргирӣ кардани унсурҳои насбкунанда"
 
 #. Type: select
 #. Choices
@@ -17,7 +39,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr ""
+msgstr "Такрор кардан"
 
 #. Type: select
 #. Choices
@@ -26,7 +48,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr ""
+msgstr "Тағйир додани оина"
 
 #. Type: select
 #. Choices
@@ -35,14 +57,14 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr ""
+msgstr "Бекор кардан"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "Боргирии файл қатъ шудааст:"
 
 #. Type: select
 #. Description
@@ -54,3 +76,7 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
+"Насбкунанда боргирии файлро аз оина қатъ кардааст. Эҳтимол аст, ки мушкилии "
+"шабака ё оина ба вуҷуд омад. Шумо метавонед боргириро аз нав кӯшиш кунед, "
+"оинаи дигареро интихоб кунед ё раванди ҷориро бекор кунед ва тарзи насби "
+"дигареро интихоб намоед."

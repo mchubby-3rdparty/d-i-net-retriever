@@ -3,12 +3,38 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of te.po to Telugu
+# Telugu translation for debian-installer
+# This file is distributed under the same license as the debian-installer package.
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+#
+# Translations from iso-codes:
+# వీవెన్ (Veeven) <launchpad.net>, 2007.
+# Y Giridhar Appaji Nag <giridhar@appaji.net>, 2008.
+# Arjuna Rao Chavala <arjunaraoc@gmail.com>,2010.
+# Y Giridhar Appaji Nag <appaji@debian.org>, 2008, 2009.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+# Arjuna Rao Chavala <arjunaraoc@googlemail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: te\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: d-i <kde-i18n-doc@kde.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr ""
+msgstr "స్థాపక వ్యవస్థ అంశాల డౌన్ లోడ్"
 
 #. Type: select
 #. Choices
@@ -17,7 +43,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr ""
+msgstr "మళ్ళీ ప్రయత్నించు"
 
 #. Type: select
 #. Choices
@@ -26,7 +52,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr ""
+msgstr "మిర్రర్ ని మార్చు"
 
 #. Type: select
 #. Choices
@@ -35,14 +61,14 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr ""
+msgstr "రద్దు"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "దస్త్రము దిగుమతి విఫలమయింది:"
 
 #. Type: select
 #. Description
@@ -54,3 +80,6 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
+"స్థాపన వ్యవస్థ  మిర్రర్ నుండి ఫైలు డౌన్లోడ్  చేయుటలో విఫలమైంది. మీ నెట్వర్క్ కాని మిర్రర్ తో సమస్య "
+"వుండవచ్చు. డౌన్లోడ్  మరల ప్రయత్నించవచ్చు, వేరొక మిర్రర్ ఎంచుకోవచ్చు, లేక రద్దు చేసి ఇంకొక స్థాపన "
+"పద్ధతి  ఎంచుకోండి."

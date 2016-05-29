@@ -3,12 +3,40 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Thai translation of debian-installer.
+# Copyright (C) 2006-2016 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+# Theppitak Karoonboonyanan <theppitak@gmail.com>, 2006-2015.
+#
+#
+# Translations from iso-codes:
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Free Software Foundation, Inc., 2002,2003,2004
+#   Alastair McKinstry <mckinstry@computer.org>, 2002, 2004
+# Translations from KDE:
+#   Thanomsub Noppaburana <donga@midaassets.com>
+# Theppitak Karoonboonyanan <theppitak@gmail.com>, 2005-2016
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr ""
+msgstr "ดาวน์โหลดองค์ประกอบการติดตั้ง"
 
 #. Type: select
 #. Choices
@@ -17,7 +45,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr ""
+msgstr "ลองใหม่"
 
 #. Type: select
 #. Choices
@@ -26,7 +54,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr ""
+msgstr "เปลี่ยนแหล่งสำเนา"
 
 #. Type: select
 #. Choices
@@ -35,14 +63,14 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr ""
+msgstr "ยกเลิก"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "ดาวน์โหลดแฟ้มไม่สำเร็จ:"
 
 #. Type: select
 #. Description
@@ -54,3 +82,6 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
+"โปรแกรมติดตั้งดาวน์โหลดแฟ้มจากแหล่งสำเนาไม่สำเร็จ อาจเกิดจากปัญหาในเครือข่ายของคุณ "
+"หรือเป็นปัญหาในตัวแหล่งสำเนาเอง คุณสามารถเลือกที่จะลองดาวน์โหลดใหม่ หรือเลือกแหล่งสำเนาอื่น "
+"หรือยกเลิกแล้วเลือกวิธีติดตั้งวิธีอื่น"
