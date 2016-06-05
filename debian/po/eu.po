@@ -3,44 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of eu.po to Euskara
-# Basque messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# Translations from iso-codes:
-# Copyright (C)
-# Translations from KDE:
-# Piarres Beobide <pi@beobide.net>, 2004-2009, 2011.
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2008, 2010.
-# Mikel Olasagasti <hey_neken@mundurat.net>, 2004.
-# Piarres Beobide Egaña <pi@beobide.net>, 2004,2006,2007, 2008, 2009.
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2010.
-# Free Software Foundation, Inc., 2002.
-# Alastair McKinstry <mckinstry@computer.org>, 2002.
-# Marcos Goienetxe <marcos_g@infonegocio.com>, 2002.
-# Piarres Beobide <pi@beobide.net>, 2008.
-# Xabier Bilbao <xabidu@gmail.com>, 2008.
-msgid ""
-msgstr ""
-"Project-Id-Version: eu\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: debian-l10n-eu@lists.debian.org\n"
-"Language: eu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Content-Transfer-Encoding=UTF-8Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr "Deskargatu instalatzailearen osagaiak"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -49,7 +17,7 @@ msgstr "Deskargatu instalatzailearen osagaiak"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr "Saiatu berriro"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -58,7 +26,7 @@ msgstr "Saiatu berriro"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr "Aldatu ispilua"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -67,14 +35,14 @@ msgstr "Aldatu ispilua"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr "Utzi"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr "Huts egin du fitxategia deskargatzean:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -86,7 +54,3 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
-"Instalatzaileak huts egin du ispilutik fitxategia deskargatzean. Arazoa egon "
-"liteke sarearekin edo ispiluarekin. Berriro deskargatzen, beste ispilu bat "
-"hautatzen edo utzi eta instalatzeko beste metodo bat aukeratzen saia "
-"zaitezke."

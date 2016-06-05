@@ -3,38 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of Debian Installer templates to Welsh
-# Copyright (C) 2004-2008 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Jonathan Price <mynamesnotclive@notclive.co.uk>, 2008.
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   - translations from ICU-3.0
-#   Dafydd Harries <daf@muse.19inch.net>, 2002,2004,2006.
-#   Free Software Foundation, Inc., 2002,2004
-#   Alastair McKinstry <mckinstry@computer.org>, 2001
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Welsh <>\n"
-"Language: cy\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr "Lawrlwytho cydrannau y sefydlydd"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -43,7 +17,7 @@ msgstr "Lawrlwytho cydrannau y sefydlydd"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr "Ailgeisio"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -52,7 +26,7 @@ msgstr "Ailgeisio"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr "Newid drych"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -61,14 +35,14 @@ msgstr "Newid drych"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr "Canslo"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr "Lawrlwytho ffeil wedi methu:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -80,6 +54,3 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
-"Methodd y sefydlydd lawrlwytho ffeil o'r drych. Fe all hyn fod oherwydd "
-"problem gyda'ch rhwydwaith, neu gyda'r drych. Gallwch ddewis i ailgeisio'r "
-"lawrlwythiad, ddewis drych arall, neu ganslo a dewis dull arall o sefydlu."

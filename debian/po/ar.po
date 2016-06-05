@@ -3,42 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ar.po to Arabic
-# Arabic messages for debian-installer. Copyright (C) 2003 Software in the Public Interest, Inc. This file is distributed under the same license as debian-installer. Ossama M. Khayat <okhayat@yahoo.com>, 2005.
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-#   Translations from kde-i18n/desktop.po:
-#
-# Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2007, 2008, 2009, 2010.
-#   Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2002.
-#   Free Software Foundation, Inc., 2002, 2004.
-#   Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2008, 2010.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Mohammad Gamal <f2c2001@yahoo.com>, 2001.
-# Ossama Khayat <okhayat@yahoo.com>, 2011, 2012, 2013.
-msgid ""
-msgstr ""
-"Project-Id-Version: ar\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: American English <okhayat@gmail.com>\n"
-"Language: ar\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 && n⇐10 ? "
-"3 : n>=11 && n⇐99 ? 4 : 5\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr "تنزيل مكونات برنامج التثبيت"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -47,7 +17,7 @@ msgstr "تنزيل مكونات برنامج التثبيت"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr "إعادة المحاولة"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -56,7 +26,7 @@ msgstr "إعادة المحاولة"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr "تغيير المرآة"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -65,14 +35,14 @@ msgstr "تغيير المرآة"
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr "إلغاء"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr "فشل تحميل ملف:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -84,6 +54,3 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
-"فشل المُثبّت في تحميل ملفّ من المرآة. قد تكون هذه مشكلة في شبكتك، أو المرآة. "
-"يمكن اختيار إعادة المحاولة، اختيار مرآة أخرى، أو الإلغاء واختيار طريقة تثبيت "
-"أخرى."
