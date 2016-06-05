@@ -3,12 +3,33 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Kazakh messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+# Talgat Daniyarov
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008, 2009
+# Dauren Sarsenov <daur88@inbox.ru>, 2008, 2009
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: 2009-02-06 15:57+0600\n"
+"Last-Translator: daur88 <daur88@inbox.ru>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr ""
+msgstr "Орнатқыштың құрамасын жүктеу"
 
 #. Type: select
 #. Choices
@@ -17,7 +38,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr ""
+msgstr "Қайталау"
 
 #. Type: select
 #. Choices
@@ -26,7 +47,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr ""
+msgstr "Айна ауыстыру"
 
 #. Type: select
 #. Choices
@@ -35,14 +56,14 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr ""
+msgstr "Бас тарту"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "Файлды жүктеу мүмкін болмады:"
 
 #. Type: select
 #. Description
@@ -54,3 +75,6 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
+"Орнату бағдарламасы айнадан файлды жүктей алмады. Бұл сіздің желіңіздің, "
+"сондай-ақ айнаның проблемасы болуы мүмкін. Тағы да жүктеп көруге, айнаны "
+"ауыстыруға, орнатудың басқа әдісін таңдауға не орнатудан бас тартуға болады."

@@ -3,12 +3,36 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+#
+#
+# Debian Installer master translation file template
+# Don't forget to properly fill-in the header of PO files
+#
+# Debian Installer translators, please read the D-I i18n documentation
+# in doc/i18n/i18n.txt
+#
+#
+# Danishka Navin <danishka@gmail.com>, 2009, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: 2011-09-15 07:01+0530\n"
+"Last-Translator: \n"
+"Language-Team: Sinhala <info@hanthana.org>\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
 #. Type: text
 #. Description
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr ""
+msgstr "ස්ථාපක සංරචක බාගත කරන්න"
 
 #. Type: select
 #. Choices
@@ -17,7 +41,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr ""
+msgstr "නැවත උත්සාහ කරන්න"
 
 #. Type: select
 #. Choices
@@ -26,7 +50,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr ""
+msgstr "පිළිබිඹුව වෙනස් කරන්න"
 
 #. Type: select
 #. Choices
@@ -35,14 +59,14 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr ""
+msgstr "අහෝසි කරන්න"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "ගොනුව බා ගැනීම අසාර්ථකයි:"
 
 #. Type: select
 #. Description
@@ -54,3 +78,6 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
+"ස්ථාපකයට පිළිබිඹුවෙන් ගොනුවක් බාගැනීමට නොහැකි විය, මෙය ඔබේ ජාලය  හෝ පිළිබිඹුව සම්බන්ධ ගැටළුවක් "
+"විය හැක, ඔබට බා ගැනීම නැවත උත්සාහ කිරීම, වෙනත් පිළිබිඹුවක් තෝරාගැනීම හෝ අවලංගු කර වෙනත් "
+"ස්ථාපන ක්‍රමයක් තෝරාගැනීම සිදුකල හැක."
