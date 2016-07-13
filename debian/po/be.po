@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-12-21 15:13+0300\n"
+"Last-Translator: Viktar Siarheichyk <vics@fsfe.org>\n"
 "Language-Team: Debian l10n team for Belarusian <debian-l10n-belarusian@lists."
 "debian.org>\n"
 "Language: be\n"
@@ -39,7 +39,7 @@ msgstr ""
 #. Main menu item
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr ""
+msgstr "Загрузка кампанентаў праграмы ўсталявання"
 
 #. Type: select
 #. Choices
@@ -48,7 +48,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Retry"
-msgstr ""
+msgstr "Ізноў"
 
 #. Type: select
 #. Choices
@@ -57,7 +57,7 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr ""
+msgstr "Іншае люстэрка"
 
 #. Type: select
 #. Choices
@@ -66,14 +66,14 @@ msgstr ""
 #. :sl2:
 #: ../net-retriever.templates:1001
 msgid "Cancel"
-msgstr ""
+msgstr "Скасаваць"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "Не атрымалася загрузіць файл:"
 
 #. Type: select
 #. Description
@@ -85,3 +85,6 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
+"Праграма ўсталявання не змагла загрузіць файл з люстэрка. Магчыма, прычына ў "
+"праблемах з сеткай альбо з люстэркам. Вы можаце выбіраць: паспрабаваць яшчэ "
+"раз, абраць іншае люстэрка, альбо адмовіцца і выбраць іншы спосаб устаноўкі."
