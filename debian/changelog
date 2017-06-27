@@ -1,3 +1,10 @@
+net-retriever (1.44) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Simplified Chinese (zh_CN.po) by Yangfl
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 27 Jun 2017 05:46:35 +0200
+
 net-retriever (1.43) unstable; urgency=medium
 
   [ Roger Shimizu ]
